@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Projetos\ECommerce\ECommerce.Test\ECommerce.Test.csproj" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2012-02-14" time="19:22:35">
+  <environment nunit-version="2.5.10.11092" clr-version="2.0.50727.4963" os-version="Microsoft Windows NT 6.1.7600.0" platform="Win32NT" cwd="C:\Program Files\NUnit 2.5.10\bin\net-2.0" machine-name="ALEX-PC" user="Alex" user-domain="Alex-PC" />
+  <culture-info current-culture="pt-BR" current-uiculture="pt-BR" />
+  <test-suite type="Project" name="C:\Projetos\ECommerce\ECommerce.Test\ECommerce.Test.csproj" executed="True" result="Failure" success="False" time="0.080" asserts="0">
+    <results>
+      <test-suite type="Assembly" name="C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\ECommerce.Test.dll" executed="True" result="Failure" success="False" time="0.074" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="ECommerce" executed="True" result="Failure" success="False" time="0.074" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="Test" executed="True" result="Failure" success="False" time="0.071" asserts="0">
+                <results>
+                  <test-suite type="TestFixture" name="Efetuar_Compra_Simples_Com_Sucesso" executed="True" result="Failure" success="False" time="0.070" asserts="0">
+                    <results>
+                      <test-case name="ECommerce.Test.Efetuar_Compra_Simples_Com_Sucesso.Compra_Efetuada_Com_Sucesso" executed="True" result="Failure" success="False" time="0.024" asserts="1">
+                        <failure>
+                          <message><![CDATA[  Expected: EmAberto
+  But was:  Paga
+]]></message>
+                          <stack-trace><![CDATA[at ECommerce.Test.Efetuar_Compra_Simples_Com_Sucesso.Compra_Efetuada_Com_Sucesso() in C:\Projetos\ECommerce\ECommerce.Test\Efetuar_Compra_Simples_Com_Sucesso.cs:line 46
+]]></stack-trace>
+                        </failure>
+                      </test-case>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

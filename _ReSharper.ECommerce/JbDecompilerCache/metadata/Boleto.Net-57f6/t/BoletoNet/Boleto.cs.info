@@ -1,0 +1,14 @@
+﻿Code version: 6.1.37.86
+Assembly name Boleto.Net, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null mvid {65edae93-5a80-4091-92cf-8163a00978bc}
+* ref mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {09b8fe2b-a929-40cd-bfbe-747dce099cf6}
+* ref System.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {0c69a9e4-1057-4fed-8ab4-27af782927d0}
+* ref System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {71ac883b-30a2-46a1-a0c5-15b3c2c38a2c}
+* ref System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {dc76fc2b-16ae-4d0e-8bd6-a82c4edd6e13}
+* ref System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+  mvid {a4fc885a-324d-4fff-aa2c-949bbee789d6}
+* ref Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+  mvid {efdacc4e-158b-4b53-bdff-6bb034269012}

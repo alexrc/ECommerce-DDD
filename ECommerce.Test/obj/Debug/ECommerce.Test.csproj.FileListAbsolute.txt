@@ -1,0 +1,13 @@
+C:\Projetos\ECommerce\ECommerce.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\ECommerce.Test.dll
+C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\ECommerce.Test.pdb
+C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\ECommerce.Domain.dll
+C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\ECommerce.Infraestructure.dll
+C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\Rhino.Mocks.dll
+C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\EntityFramework.dll
+C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\ECommerce.Domain.pdb
+C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\ECommerce.Infraestructure.pdb
+C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\nunit.framework.xml
+C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\EntityFramework.xml
+C:\Projetos\ECommerce\ECommerce.Test\obj\Debug\ECommerce.Test.dll
+C:\Projetos\ECommerce\ECommerce.Test\obj\Debug\ECommerce.Test.pdb

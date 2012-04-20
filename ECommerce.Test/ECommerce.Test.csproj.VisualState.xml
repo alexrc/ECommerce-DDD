@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1000]C:\Projetos\ECommerce\ECommerce.Test\ECommerce.Test.csproj</TopNode>
+  <SelectedNode>[0-1000]C:\Projetos\ECommerce\ECommerce.Test\ECommerce.Test.csproj</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]C:\Projetos\ECommerce\ECommerce.Test\ECommerce.Test.csproj" Expanded="true" />
+    <Node UniqueName="[0-1003]C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\ECommerce.Test.dll" Expanded="true" />
+    <Node UniqueName="[0-1004]ECommerce" Expanded="true" />
+    <Node UniqueName="[0-1005]ECommerce.Test" Expanded="true" />
+    <Node UniqueName="[0-1001]ECommerce.Test.Efetuar_Compra_Com_Cartao_De_Credito_Com_Sucesso" Expanded="true" />
+  </Nodes>
+</VisualState>

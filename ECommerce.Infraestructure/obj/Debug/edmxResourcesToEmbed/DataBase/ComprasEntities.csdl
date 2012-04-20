@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ECommerceModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="ECommerceEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Compras" EntityType="ECommerceModel.Compra" />
+    <EntitySet Name="ItemCompras" EntityType="ECommerceModel.ItemCompra" />
+    <EntitySet Name="Pagamentoes" EntityType="ECommerceModel.Pagamento" />
+    <EntitySet Name="Produtoes" EntityType="ECommerceModel.Produto" />
+    <EntitySet Name="StatusCompras" EntityType="ECommerceModel.StatusCompra" />
+    <EntitySet Name="StatusPagamentoes" EntityType="ECommerceModel.StatusPagamento" />
+    <EntitySet Name="TipoCartaoDeCreditoes" EntityType="ECommerceModel.TipoCartaoDeCredito" />
+    <AssociationSet Name="FK_ItemCompra_Compras" Association="ECommerceModel.FK_ItemCompra_Compras">
+      <End Role="Compras" EntitySet="Compras" />
+      <End Role="ItemCompra" EntitySet="ItemCompras" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemCompra_Produto" Association="ECommerceModel.FK_ItemCompra_Produto">
+      <End Role="Produto" EntitySet="Produtoes" />
+      <End Role="ItemCompra" EntitySet="ItemCompras" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pagamento_StatusPagamento" Association="ECommerceModel.FK_Pagamento_StatusPagamento">
+      <End Role="StatusPagamento" EntitySet="StatusPagamentoes" />
+      <End Role="Pagamento" EntitySet="Pagamentoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Pagamento_TipoCartaoDeCredito" Association="ECommerceModel.FK_Pagamento_TipoCartaoDeCredito">
+      <End Role="TipoCartaoDeCredito" EntitySet="TipoCartaoDeCreditoes" />
+      <End Role="Pagamento" EntitySet="Pagamentoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Compras_StatusCompra" Association="ECommerceModel.FK_Compras_StatusCompra">
+      <End Role="StatusCompra" EntitySet="StatusCompras" />
+      <End Role="Compra" EntitySet="Compras" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Compras_Pagamento" Association="ECommerceModel.FK_Compras_Pagamento">
+      <End Role="Pagamento" EntitySet="Pagamentoes" />
+      <End Role="Compra" EntitySet="Compras" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Compra">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="StatusCompraID" Type="Int16" Nullable="false" />
+    <Property Name="Valor" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PagamentoID" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="ItemCompras" Relationship="ECommerceModel.FK_ItemCompra_Compras" FromRole="Compras" ToRole="ItemCompra" />
+    <NavigationProperty Name="StatusCompra" Relationship="ECommerceModel.FK_Compras_StatusCompra" FromRole="Compra" ToRole="StatusCompra" />
+    <NavigationProperty Name="Pagamento" Relationship="ECommerceModel.FK_Compras_Pagamento" FromRole="Compra" ToRole="Pagamento" />
+  </EntityType>
+  <EntityType Name="ItemCompra">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="ProdutoID" Type="Int64" Nullable="false" />
+    <Property Name="Quantidade" Type="Int32" Nullable="false" />
+    <Property Name="CompraID" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="Compra" Relationship="ECommerceModel.FK_ItemCompra_Compras" FromRole="ItemCompra" ToRole="Compras" />
+    <NavigationProperty Name="Produto" Relationship="ECommerceModel.FK_ItemCompra_Produto" FromRole="ItemCompra" ToRole="Produto" />
+  </EntityType>
+  <EntityType Name="Pagamento">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="StatusPagamentoID" Type="Int16" Nullable="false" />
+    <Property Name="Valor" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="CodigoDeBarrasBoleto" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="VencimentoBoleto" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="NumeroCartao" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="CodigoSeguranca" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="TipoCartaoDeCreditoID" Type="Int16" />
+    <Property Name="NomeNoCartao" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ValidadeMes" Type="Int16" />
+    <Property Name="ValidadeAno" Type="Int16" />
+    <NavigationProperty Name="StatusPagamento" Relationship="ECommerceModel.FK_Pagamento_StatusPagamento" FromRole="Pagamento" ToRole="StatusPagamento" />
+    <NavigationProperty Name="TipoCartaoDeCredito" Relationship="ECommerceModel.FK_Pagamento_TipoCartaoDeCredito" FromRole="Pagamento" ToRole="TipoCartaoDeCredito" />
+    <NavigationProperty Name="Compras" Relationship="ECommerceModel.FK_Compras_Pagamento" FromRole="Pagamento" ToRole="Compra" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" />
+    <Property Name="Peso" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Valor" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Titulo" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="Autor" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="ISBN" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <Property Name="CategoriaID" Type="Int16" />
+    <Property Name="Editora" Type="String" MaxLength="10" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="ItemCompras" Relationship="ECommerceModel.FK_ItemCompra_Produto" FromRole="Produto" ToRole="ItemCompra" />
+  </EntityType>
+  <EntityType Name="StatusCompra">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int16" Nullable="false" />
+    <Property Name="Descricao" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="Compras" Relationship="ECommerceModel.FK_Compras_StatusCompra" FromRole="StatusCompra" ToRole="Compra" />
+  </EntityType>
+  <EntityType Name="StatusPagamento">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int16" Nullable="false" />
+    <Property Name="Descricao" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="Pagamentoes" Relationship="ECommerceModel.FK_Pagamento_StatusPagamento" FromRole="StatusPagamento" ToRole="Pagamento" />
+  </EntityType>
+  <EntityType Name="TipoCartaoDeCredito">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int16" Nullable="false" />
+    <Property Name="Descricao" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="true" />
+    <NavigationProperty Name="Pagamentoes" Relationship="ECommerceModel.FK_Pagamento_TipoCartaoDeCredito" FromRole="TipoCartaoDeCredito" ToRole="Pagamento" />
+  </EntityType>
+  <Association Name="FK_ItemCompra_Compras">
+    <End Role="Compras" Type="ECommerceModel.Compra" Multiplicity="1" />
+    <End Role="ItemCompra" Type="ECommerceModel.ItemCompra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Compras">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ItemCompra">
+        <PropertyRef Name="CompraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemCompra_Produto">
+    <End Role="Produto" Type="ECommerceModel.Produto" Multiplicity="1" />
+    <End Role="ItemCompra" Type="ECommerceModel.ItemCompra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produto">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ItemCompra">
+        <PropertyRef Name="ProdutoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pagamento_StatusPagamento">
+    <End Role="StatusPagamento" Type="ECommerceModel.StatusPagamento" Multiplicity="1" />
+    <End Role="Pagamento" Type="ECommerceModel.Pagamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusPagamento">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Pagamento">
+        <PropertyRef Name="StatusPagamentoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Pagamento_TipoCartaoDeCredito">
+    <End Role="TipoCartaoDeCredito" Type="ECommerceModel.TipoCartaoDeCredito" Multiplicity="0..1" />
+    <End Role="Pagamento" Type="ECommerceModel.Pagamento" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoCartaoDeCredito">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Pagamento">
+        <PropertyRef Name="TipoCartaoDeCreditoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Compras_StatusCompra">
+    <End Type="ECommerceModel.StatusCompra" Role="StatusCompra" Multiplicity="1" />
+    <End Type="ECommerceModel.Compra" Role="Compra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="StatusCompra">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Compra">
+        <PropertyRef Name="StatusCompraID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Compras_Pagamento">
+    <End Type="ECommerceModel.Pagamento" Role="Pagamento" Multiplicity="1" />
+    <End Type="ECommerceModel.Compra" Role="Compra" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Pagamento">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Compra">
+        <PropertyRef Name="PagamentoID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

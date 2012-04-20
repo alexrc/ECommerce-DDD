@@ -1,0 +1,10 @@
+C:\Projetos\ECommerce\ECommerce.Domain\bin\Debug\ECommerce.Domain.dll.config
+C:\Projetos\ECommerce\ECommerce.Domain\bin\Debug\ECommerce.Domain.dll
+C:\Projetos\ECommerce\ECommerce.Domain\bin\Debug\ECommerce.Domain.pdb
+C:\Projetos\ECommerce\ECommerce.Domain\bin\Debug\ECommerce.Infraestructure.dll
+C:\Projetos\ECommerce\ECommerce.Domain\bin\Debug\EntityFramework.dll
+C:\Projetos\ECommerce\ECommerce.Domain\bin\Debug\ECommerce.Infraestructure.pdb
+C:\Projetos\ECommerce\ECommerce.Domain\bin\Debug\EntityFramework.xml
+C:\Projetos\ECommerce\ECommerce.Domain\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\ECommerce\ECommerce.Domain\obj\Debug\ECommerce.Domain.dll
+C:\Projetos\ECommerce\ECommerce.Domain\obj\Debug\ECommerce.Domain.pdb

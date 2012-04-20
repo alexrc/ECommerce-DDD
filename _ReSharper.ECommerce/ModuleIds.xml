@@ -1,0 +1,8 @@
+<Modules>
+  <Module PersistentId="C3C8C80A-1664-4179-9C5D-BC05498BAD61" ModuleId="ECommerce.Test" />
+  <Module PersistentId="232F4292-7F85-4774-8925-4321F913D14C" ModuleId="ECommerce.Domain" />
+  <Module PersistentId="1D58DD49-BFE2-48C9-8C48-57DDB5D7569A" ModuleId="ECommerce.Infra" />
+  <Module PersistentId="B7B766F0-0F8A-42A7-B33D-FAA65B2E8517" ModuleId="ECommerce.Web" />
+  <Module PersistentId="696EA09A-831E-43DB-A9FD-76A861302C3A" ModuleId="]Boleto.Net" />
+  <Module PersistentId="Boleto.Net, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null" ModuleId="Boleto.Net" />
+</Modules>

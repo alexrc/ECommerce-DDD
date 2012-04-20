@@ -1,0 +1,9 @@
+C:\Projetos\ECommerce\ECommerce.Web\bin\ECommerce.Web.dll
+C:\Projetos\ECommerce\ECommerce.Web\bin\ECommerce.Web.pdb
+C:\Projetos\ECommerce\ECommerce.Web\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\ECommerce\ECommerce.Web\obj\Debug\ECommerce.Web.dll
+C:\Projetos\ECommerce\ECommerce.Web\obj\Debug\ECommerce.Web.pdb
+C:\Projetos\ECommerce\ECommerce.Web\bin\ECommerce.Application.dll
+C:\Projetos\ECommerce\ECommerce.Web\bin\ECommerce.Application.pdb
+C:\Projetos\ECommerce\ECommerce.Web\bin\EntityFramework.dll
+C:\Projetos\ECommerce\ECommerce.Web\bin\EntityFramework.xml

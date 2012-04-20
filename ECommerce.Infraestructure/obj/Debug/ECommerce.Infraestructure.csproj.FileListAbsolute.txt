@@ -1,0 +1,9 @@
+C:\Projetos\ECommerce\ECommerce.Infraestructure\bin\Debug\ECommerce.Infraestructure.dll.config
+C:\Projetos\ECommerce\ECommerce.Infraestructure\bin\Debug\ECommerce.Infraestructure.dll
+C:\Projetos\ECommerce\ECommerce.Infraestructure\bin\Debug\ECommerce.Infraestructure.pdb
+C:\Projetos\ECommerce\ECommerce.Infraestructure\bin\Debug\EntityFramework.dll
+C:\Projetos\ECommerce\ECommerce.Infraestructure\bin\Debug\EntityFramework.xml
+C:\Projetos\ECommerce\ECommerce.Infraestructure\obj\Debug\ResolveAssemblyReference.cache
+C:\Projetos\ECommerce\ECommerce.Infraestructure\obj\Debug\ECommerce.Infraestructure.dll
+C:\Projetos\ECommerce\ECommerce.Infraestructure\obj\Debug\ECommerce.Infraestructure.pdb
+C:\Projetos\ECommerce\ECommerce.Infraestructure\bin\Debug\Boleto.Net.dll

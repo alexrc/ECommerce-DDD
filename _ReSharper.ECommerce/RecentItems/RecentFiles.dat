@@ -1,0 +1,54 @@
+﻿<RecentFiles>
+  <RecentFiles>
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/d:Services/f:AutorizadorPagamentoService.cs" caret="415" fromTop="13" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/f:Pagamento.cs" caret="68" fromTop="2" />
+    <File id="1D58DD49-BFE2-48C9-8C48-57DDB5D7569A/f:EnumExtensions.cs" caret="506" fromTop="18" />
+    <File id="1D58DD49-BFE2-48C9-8C48-57DDB5D7569A/f:EnumWrapper.cs" caret="450" fromTop="18" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/f:StatusCompra.cs" caret="550" fromTop="23" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/f:StatusPagamento.cs" caret="305" fromTop="13" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/d:Repository/f:ComprasRepository.cs" caret="0" fromTop="0" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/d:Repository/f:Repository.cs" caret="322" fromTop="7" />
+    <File id="B7B766F0-0F8A-42A7-B33D-FAA65B2E8517/d:Styles/f:Site.css" caret="0" fromTop="0" />
+    <File id="B7B766F0-0F8A-42A7-B33D-FAA65B2E8517/d:Account/f:Login.aspx" caret="2471" fromTop="17" />
+    <File id="B7B766F0-0F8A-42A7-B33D-FAA65B2E8517/d:Account/f:Login.aspx.cs" caret="303" fromTop="11" />
+    <File id="B7B766F0-0F8A-42A7-B33D-FAA65B2E8517/f:Default.aspx" caret="369" fromTop="7" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_criar_um_item_de_compra_valido.cs" caret="1513" fromTop="6" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/f:Boleto.cs" caret="0" fromTop="0" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/d:Factories/f:FabricaCompra.cs" caret="0" fromTop="0" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:packages.config" caret="0" fromTop="0" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="264" fromTop="12" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_De_Livro_Com_Cartao_De_Credito.cs" caret="289" fromTop="11" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:ComprasTestBase.cs" caret="0" fromTop="0" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:EnumExtensions_Test.cs" caret="0" fromTop="0" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Testar_CRUD_Compras_EntityFramework.cs" caret="593" fromTop="14" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/f:Compra.cs" caret="769" fromTop="17" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/d:Repository/f:ECommerceContext.cs" caret="991" fromTop="24" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/d:Migrations/f:Configuration.cs" caret="3163" fromTop="21" />
+  </RecentFiles>
+  <RecentEdits>
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_De_Livro_Com_Cartao_De_Credito.cs" caret="1473" fromTop="25" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="172" fromTop="2" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:ComprasTestBase.cs" caret="233" fromTop="35" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:ComprasTestBase.cs" caret="157" fromTop="8" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:ComprasTestBase.cs" caret="231" fromTop="13" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_De_Livro_Com_Cartao_De_Credito.cs" caret="1286" fromTop="33" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:ComprasTestBase.cs" caret="944" fromTop="31" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_De_Livro_Com_Cartao_De_Credito.cs" caret="753" fromTop="13" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="759" fromTop="16" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="696" fromTop="10" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="1478" fromTop="20" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="1511" fromTop="21" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="516" fromTop="3" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:ComprasTestBase.cs" caret="229" fromTop="10" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_De_Livro_Com_Cartao_De_Credito.cs" caret="389" fromTop="1" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="336" fromTop="4" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="1334" fromTop="5" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="1953" fromTop="21" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" caret="1131" fromTop="15" />
+    <File id="C3C8C80A-1664-4179-9C5D-BC05498BAD61/f:Ao_criar_um_item_de_compra_valido.cs" caret="569" fromTop="9" />
+    <File id="B7B766F0-0F8A-42A7-B33D-FAA65B2E8517/d:Account/f:Login.aspx" caret="369" fromTop="0" />
+    <File id="B7B766F0-0F8A-42A7-B33D-FAA65B2E8517/d:Account/f:Login.aspx" caret="0" fromTop="0" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/d:Migrations/f:Configuration.cs" caret="189" fromTop="7" />
+    <File id="232F4292-7F85-4774-8925-4321F913D14C/d:Migrations/f:Configuration.cs" caret="143" fromTop="4" />
+  </RecentEdits>
+</RecentFiles>
