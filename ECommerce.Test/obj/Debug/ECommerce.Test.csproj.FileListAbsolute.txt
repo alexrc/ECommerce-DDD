@@ -7,7 +7,6 @@ C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\Rhino.Mocks.dll
 C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\EntityFramework.dll
 C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\ECommerce.Domain.pdb
 C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\ECommerce.Infraestructure.pdb
-C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\nunit.framework.xml
 C:\Projetos\ECommerce\ECommerce.Test\bin\Debug\EntityFramework.xml
 C:\Projetos\ECommerce\ECommerce.Test\obj\Debug\ECommerce.Test.dll
 C:\Projetos\ECommerce\ECommerce.Test\obj\Debug\ECommerce.Test.pdb
