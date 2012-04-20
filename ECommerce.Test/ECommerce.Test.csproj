@@ -47,9 +47,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Ao_criar_um_item_de_compra_valido.cs" />
+    <Compile Include="Ao_Efetuar_Compra_De_Livro_Com_Cartao_De_Credito.cs" />
+    <Compile Include="Ao_Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" />
     <Compile Include="ComprasTestBase.cs" />
-    <Compile Include="Efetuar_Compra_Com_Cartao_De_Credito_Com_Sucesso.cs" />
-    <Compile Include="Efetuar_Compra_Via_Boleto_Com_Sucesso.cs" />
     <Compile Include="EnumExtensions_Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Testar_CRUD_Compras_EntityFramework.cs" />
